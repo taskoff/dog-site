@@ -4,8 +4,11 @@ body {
 
 h1 {
     font-size: 3.5em;
-    text-shadow: 2px 1px black;
     color: white;
+}
+
+h1 a {
+    text-shadow: 2px 2px #550080;
 }
 
 h2 {
@@ -16,11 +19,12 @@ h2 {
 
 .site-nav ul li {
     font-size: 1.2em;
+    text-shadow: 1px 1px #550080;
 }
 
-.site-nav ul li a {
+.site-header a {
     text-decoration: none;
     color: white;
-    text-shadow: 1px 1px black;
+    
 }
 
