@@ -1,0 +1,46 @@
+.titles {
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.front-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.front-gallery li {
+    list-style: none;
+    position: relative;
+    overflow: hidden;
+    width: 20em;
+}
+
+.front-gallery li::before {
+    display: block;
+    content: '';
+    padding-top: 130%;
+    /* overflow: hidden; */
+}
+
+.front-gallery a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.front-gallery img {
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-images::after {
+    clear: both;
+}

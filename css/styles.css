@@ -1,3 +1,52 @@
-body {
-    background-color: lightblue;
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+@import url('./typography.css');
+@import url('./front-page.css');
+
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-image: linear-gradient(to right top, #06f3eb, #00d2ff, #00abff, #0078ff, #6712eb);
+    min-height: 100vh;
+
+}
+
+
+
+.site-main {
+    max-width: 75em;
+    margin: auto;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: thistle; */
+    margin: 2em 0 0 0;
+    padding: 0 2em;
+}
+
+.site-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    
+}
+
+
+.site-nav ul li {
+    list-style: none;
+    margin-left: 2em;
+    padding: 0.5em;
+    /* background-color: blue; */
+    /* border-radius: 0.3em; */
+    
+}
+
+.site-footer {
+    margin-bottom: 0;
+}
+
