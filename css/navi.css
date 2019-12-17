@@ -24,7 +24,7 @@
 .site-nav ul li:hover {
     background-color: #550080;
     box-shadow: 2px 2px rgba(0,0,0,0.8);
-    transition: background-color 1000ms linear;
+    transition: background-color 1000ms ease-in;
 }
 .site-nav ul li:hover a{
     color: white;
