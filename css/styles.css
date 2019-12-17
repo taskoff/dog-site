@@ -29,6 +29,14 @@ body {
     padding: 2em 2em;
 }
 
+.site-footer {
+    
+    text-align: right;
+}
 
+.site-footer p {
+    color: #550080;
+    padding-right: 2em;
+}
 
 

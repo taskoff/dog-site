@@ -8,12 +8,13 @@
 .img-container {
     position: relative;
     width: 15em;
+    margin-left: 1.5em;
 }
 
 .img-container::before {
     display: block;
     content: '';
-    padding-top: 130%;
+    padding-top: 129%;
    
    
 }
@@ -28,6 +29,7 @@
     overflow: hidden;
     border-radius: 0.3em;
     border: 1em solid white;
+    box-shadow: 2px 2px #550080;
 }
 
 .img-container img {
@@ -42,7 +44,7 @@
 
 .loaded .img-container img {
     opacity: 1;
-    transition: opacity 0.5s ease-in 1.5s;
+    transition: opacity 0.5s ease-in 1.7s;
 }
 
 .first-dog-name {
@@ -70,6 +72,3 @@
     transition: transform 0.8s ease-in 1s, opacity 0.5s ease-in 1s;
 }
 
-.front-container::after {
-    clear: both;
-}
