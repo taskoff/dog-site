@@ -5,26 +5,28 @@ body {
 h1 {
     font-size: 3.5em;
     color: white;
-}
-
-h1 a {
     text-shadow: 2px 2px #550080;
+
+}
+h1 a,
+.site-nav a {
+    color: white;
 }
 
 h2 {
     font-size: 2.5em;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px #550080;
     color: white;
+    padding-bottom: 1em;
 }
 
 .site-nav ul li {
     font-size: 1.2em;
-    text-shadow: 1px 1px #550080;
 }
 
 .site-header a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
     
 }
 

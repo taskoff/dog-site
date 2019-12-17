@@ -2,14 +2,12 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 3em;
+    padding-top: 3em;
 }
 
 .img-container {
     position: relative;
     width: 15em;
-    
-    
 }
 
 .img-container::before {
@@ -29,6 +27,7 @@
     bottom: 0;
     overflow: hidden;
     border-radius: 0.3em;
+    border: 1em solid white;
 }
 
 .img-container img {
@@ -38,7 +37,38 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   }
+    opacity: 0;
+}
+
+.loaded .img-container img {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 1.5s;
+}
+
+.first-dog-name {
+    transform: translateX(-5em);
+    opacity: 0;
+}
+
+.loaded .first-dog-name {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.8s ease-in 0.5s, opacity 0.5s ease-in 0.5s;
+}
+
+.second-dog {
+    padding-right: 3em;
+}
+.second-dog-name {
+    transform: translateX(+5em);
+    opacity: 0;
+}
+
+.loaded .second-dog-name {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.8s ease-in 1s, opacity 0.5s ease-in 1s;
+}
 
 .front-container::after {
     clear: both;
