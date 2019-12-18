@@ -1,0 +1,25 @@
+.contacts {
+    text-align: center;
+}
+
+.adress {
+    list-style: none;
+}
+
+.adress li {
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 1px 1px #550080;
+}
+
+.map {
+    text-align: center;
+}
+
+iframe {
+   width: 80%;
+}
+
+hr {
+    margin: 2em;
+}

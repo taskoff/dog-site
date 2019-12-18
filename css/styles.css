@@ -3,6 +3,8 @@
 @import url('./front-page.css');
 @import url('./navi.css');
 @import url('./first-gallery.css');
+@import url('./contacts.css');
+
 
 
 * {
@@ -29,6 +31,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 2em 2em;
+    padding-bottom: 0;
 }
 
 .site-footer {
@@ -41,4 +44,6 @@ body {
     padding-right: 2em;
 }
 
-
+.front-hr-footer {
+    margin-top: 2em;
+}
